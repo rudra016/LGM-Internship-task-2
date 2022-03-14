@@ -1,0 +1,133 @@
+
+button{
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color:  #8BC6EC;
+  padding: 12px 10px;
+  margin-top: -50px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color:#9599E2 ;
+}
+
+.column-1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column-2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: rgb(106, 90, 205) !important;
+  color:rgb(160, 33, 86);
+  /* height: 18vh; */
+}
+
+.box-2{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 50%;
+  margin-top: 24px;
+}
+
+
+.column-3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.profile {
+  border: 1.5px initial rgb(160, 33, 86);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 330px;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  border-radius: 193px;
+  ;
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(8, 0, 5, 0.582);
+  transform: translateY(-2px);
+}
+.email {
+  color: rgb(248, 248, 248);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size:40px;
+  font-weight: lighter;
+  color: rgb(241, 242, 247);
+}
+.loader{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .profile{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .name{
+    font-size:medium;
+  }
+  .column-3{
+    float: left;
+    margin-left: 60px;
+  }
+
+  .email{
+    font-size: small;
+  }
+
+  .loader{
+    align-self: center;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+    
+  }
+
+  .box{
+    width:110vh;
+  }
+  
+  
+}
